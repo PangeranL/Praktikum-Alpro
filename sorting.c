@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void mengahsilkan_array_acak (int array[], int size, int min_value, int max_value) {
+void menghasilkan_array_acak (int array[], int size, int min_value, int max_value) {
     int i;
     for (i = 0; i < size; i++) {
         array[i] = min_value + rand() % (max_value - min_value + 1);
